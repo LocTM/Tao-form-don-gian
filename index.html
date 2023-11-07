@@ -9,39 +9,9 @@
 <body>
 
  <h1 class="ST">SỞ THÍCH CỦA BẠN</h1> 
-<!-- <div class="container" >
-
-<p>Họ và tên 
-    <input type="text" name="name" id="name" placeholder="Nhập họ và tên">
-</p>
-<br>
-<p>Email
-    <input type="text" name="email" id="email" placeholder="Nhập email">
-</p>
-
-</div>
-
-
-
-    <table >
-        <tr>
-            <td><p class="ST222">Sở thích</td>
-            <td><input type="checkbox" name="">Thể thao</td>
-            <td><input type="checkbox" name="">Lướt Web</td>
-            <td><input type="checkbox" name="">Đọc sách</td>
-        </tr>
-        <tr>
-            <td><input type="checkbox" name="">Âm nhạc</td>
-            <td><input type="checkbox" name="">Chơi Game</td>
-            <td><input type="checkbox" name="">Điện ảnh</td>
-        </tr>
-        <tr>
-            <td><input type="checkbox" name="">Du lịch</td>
-           
-        </tr>
-    </table>   -->
 
 <center>
+<form action="index.php" method="post">
 <table>
  
     <tr>
@@ -82,15 +52,64 @@
     <tr>
         <td></td>
         <td><button> Gửi thông tin </button></td>
-        <td><input type="reset"></td>
+        <td><button type="reset"> Reset </button></td>
         <td></td>
         <td></td>
     </tr>
 
    
 </table>
+</form>
 </center>
+<br>
+<br>
+<br>
+<br>
+<br>
 
+
+<h1 class="ST">Đăng ký học viên</h1> 
+<form action="index.php/" method="post">
+<div class="container" >
+    <div class="left">
+        <p>Họ và tên</p>
+        <p>Ngày sinh</p>
+        <p>Giới tính</p>
+        <p>Địa chỉ</p>
+        <br>
+        
+        
+        <p>Lớp</p>
+        <p>Điện thoại</p>
+        <p>Email</p>
+
+    </div>
+   
+    <div class="right">
+        <input type="text" name="name" id="name" placeholder="Nhập họ và tên">
+        <br>
+        <input type="date" name="date" id="date" placeholder="Nhập ngày sinh">
+        <br>
+        <input type="radio" name="gender">Nam
+        <input type="radio" name="gender">Nữ
+        <br>
+        <textarea></textarea>
+        <br>
+        <select name="">
+            <option value="1">--Chọn lớp--</option>
+            <option value="2">1</option>
+            <option value="3">2</option>
+            <option value="4">3</option>
+        </select>
+        <br>
+        <input type="text" name="phone" id="phone" placeholder="Nhập số điện thoại">
+        <br>
+        <input type="text" name="email" id="email" placeholder="Nhập email">
+        <br>
+        <button>Đăng ký</button> <button type="reset">Reset</button>
+    </div>
+</div>
+</form>
 
 
 
